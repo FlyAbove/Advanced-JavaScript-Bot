@@ -1,5 +1,5 @@
 # Discord JavaScript Bot 
-An advanced discord bot made on Javascript with ❤ by FlyAbove
+An advanced discord bot coded on Javascript with ❤ by FlyAbove
 
 # About
 Node Version  
