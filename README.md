@@ -16,5 +16,5 @@ Support the project
 # Note:
 * This bot is a work in progress and is subject to change.
 * The bot source code is an open repository only for educataional purposes.
-* Any kind of self hosting this code is not allowed
+* Any kind of self hosting this code is not allowed.
 * Using and learning a command is allowed until and unless you copy the whole command.
