@@ -12,7 +12,8 @@ module.exports = {
        
         const member = message.mentions.members.first()
         if(!message.member.hasPermission('KICK_MEMBERS'))
-        return
+        return message.channel.send({embed:{title: `${red} You don't have __KICK MEMBERS__ to use this command`, color: 'RED'}})
+        
         if(!message.guild.me.hasPermission('KICK_MEMBERS')){
             return message.channel.send({embed:{title: `${red} I don't have __KICK MEMBERS__ permission to execute this command`, color: 'RED'}})
         }
