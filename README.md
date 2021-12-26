@@ -1,19 +1,16 @@
 # Discord JavaScript Bot 
 An advanced discord bot made on Javascript with ❤ by FlyAbove
 
-# Setup guide:
-Clone the repository and change ``config-example.json`` to ``config.json`` and fill out the required information.
-
-# Installation guide:
-``npm install`` to install all necessary packages.
-
-# Self hosting guide:
-``node index.js`` to self host the bot.
-
-# Hosting the bot on Heroku:
-Create a file named Procfile with the following content.
-``worker: node index.js`` switch the dyno to on and host the bot.
-
+#About
+Node Version\n[16.13.1](https://nodejs.org/en/)\n\n<:greendot:861017374173954048> 
+Library\n[discord.js v12.5.3](https://discord.js.org/#/)
+Developer\n[FlyAbove](https://github.com/FlyAbove)
+Code Editor\n[Visual Studio Code](https://code.visualstudio.com/download)
+Privacy Policy\n[Link](https://github.com/FlyAbove/privacy)
+Support the project\n[Donate here](https://www.patreon.com/lonelydev0304?fan_landing=true
 
 # Note:
-This bot is a work in progress and is subject to change.
+* This bot is a work in progress and is subject to change.
+* The bot source code is an open repository only for educataional purposes.
+* Any kind of self hosting this code is not allowed
+* Using and learning a command is allowed until and unless you copy the whole command.
