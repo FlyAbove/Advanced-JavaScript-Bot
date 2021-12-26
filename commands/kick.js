@@ -28,13 +28,13 @@ module.exports = {
            
             
             if(member){
-            message.channel.send({embed:{title:` ${green} ${member.user.tag} is successfully been kicked`, color: message.guild.me.displayColor,}})
+            return message.channel.send({embed:{title:` ${green} ${member.user.tag} is successfully been kicked`, color: message.guild.me.displayColor,}})
             member.kick()
             
             }
             
             else{
-                message.channel.send({embed:{ title: `${red} Please mention a valid user you desire to kick from the server`, color: 'RED'}})
+            return message.channel.send({embed:{ title: `${red} Please mention a valid user you desire to kick from the server`, color: 'RED'}})
 
             }
           
