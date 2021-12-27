@@ -30,7 +30,7 @@ module.exports = {
             embed.setFooter(`Requested by ${target.tag}`, target.displayAvatarURL)
             return message.channel.send(embed)
 
-        } 
+        }
 
     }
 }
