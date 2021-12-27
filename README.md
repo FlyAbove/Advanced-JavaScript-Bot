@@ -1,7 +1,7 @@
-# Discord JavaScript Bot 
+# 🎉 Discord JavaScript Bot 
 An advanced discord bot coded on Javascript with ❤ by FlyAbove
 
-# About
+# ❔ About
 Node Version  
 [16.13.1](https://nodejs.org/en/)
 
@@ -17,7 +17,9 @@ Privacy Policy
 Support the project  
 [Donate here](https://www.patreon.com/lonelydev0304?fan_landing=true)    
 
-# Note:
+# 📑 Contribution
+
+# ⚠ Note:
 * This bot is a work in progress and is subject to change.
 * The bot source code is an open repository only for educataional purposes.
 * Any kind of self hosting this code is not allowed.
