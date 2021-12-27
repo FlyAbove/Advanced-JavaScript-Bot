@@ -20,8 +20,7 @@ Support the project
 # 📑 Contribution
 We always welcome new contributors to join the team  
 
-If you are intrested you can checkout for more info [here](https://github.com/FlyAbove/Advanced-JavaScript-Bot/blob/main/CONTRIBUTING.md)(![image](https://user-images.githubusercontent.com/76478580/147511636-93f082d6-9a97-49dd-bbce-dec61c2426bf.png)
-
+If you are intrested you can checkout for more info [here](https://github.com/FlyAbove/Advanced-JavaScript-Bot/blob/main/CONTRIBUTING.md)
 
 # ⚠ Note:
 * This bot is a work in progress and is subject to change.
