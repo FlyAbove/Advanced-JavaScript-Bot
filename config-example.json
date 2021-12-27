@@ -3,7 +3,7 @@
     "token": "",
     "clientID": "",
     "prefix": "!",
-    "logs": "", //logging channel
+    "logs": "",
     "invite": "https://discord.com/api/oauth2/authorize?client_id=815109626264682496&permissions=8&scope=bot",
     "support": "https://discord.gg/QtwTkCPCaz",
     "green": "<:tick:818403293977378846>",
