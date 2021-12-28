@@ -27,7 +27,7 @@ module.exports = {
                 dynamic: true
             }))
             embed.setColor(`${config.ok}`)
-            embed.setFooter(`Requested by ${target.tag}`, target.displayAvatarURL)
+            embed.setFooter(`Requested by ${message.author.tag}`, target.displayAvatarURL)
             return message.channel.send(embed)
 
         }

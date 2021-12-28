@@ -71,7 +71,7 @@ module.exports = {
             } else {
                 return message.channel.send({
                         embed: {
-                            title: `${red} Please mention a valid user you desire to kick from __${message.guild.name}__`,
+                            title: `${config.red} Please mention a valid user you desire to kick from __${message.guild.name}__`,
                             color: `${config.no}`
                         }
                     })
