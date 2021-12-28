@@ -14,13 +14,15 @@ client.aliases = new Discord.Collection()
 client.cooldown = new Discord.Collection()
 
 const commandFile = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
-// To filter only JavaScript files from commands folder 
+// To filter only JavaScript files from commands folder
 
 /* The code below is only command handler */
 for (const file of commandFile) {
     const command = require(`./commands/${file}`)
     client.commands.set(command.name, command)
     console.log(`[>] Command loaded ${command.name}`)
+    client.aliases.set(command.aliases, command)
+    console.log(`[>] Loaded aliase ${command.alisases.map((alias) => alias + "\n")}`); // load the aliases (should work (hopefully))
 }
 
 client.on('ready', () => {
@@ -30,30 +32,29 @@ client.on('ready', () => {
     console.log(`[>] ${client.user.tag} is ready to serve`)
     if (!config.Activity) return console.log('[!] The bot activity status is empty')
     console.log(`[>] ${config.Activity} is the bot's activity status`) // Bot ready message event
-
-});
+}); // this is the bot ready event, this event will be emited once discord.js has established a websocket connection with discord thru your token, this event will not be emited if your token is wrong or there was any error in client.login method
 
 client.on('message', async (message) => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
-    const command = args.shift().toLowerCase();
-
-    if (!client.commands.get(command)) return;
-    try {
-        client.commands.get(command).execute(message, args, client);
-    } catch (err) {
-        message.channel.send({
-            embed: {
-                color: RED,
-                description: "There was an error trying to execute that command",
-            }
-        })
+    const commandName = args.shift().toLowerCase();
+    const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
+    if (command) {
+        try {
+            command.execute(message, args, client)
+        } catch (e) {
+            message.channel.send({
+                embed: {
+                    color: "RED",
+                    description: `There was an error executing the command ${commandName}`
+                }
+            })
+        }
     }
-
 })
 client.login(config.token) /* Add the token of your bot in config.json file*/
 
     .catch(error => {
-        console.log(`[!] Error logged in ${error}`) // It's good to for error handling 
+        console.log(`[!] Error logged in ${error}`) // It's good to do error handling
     })

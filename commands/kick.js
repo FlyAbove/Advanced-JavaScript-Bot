@@ -1,13 +1,8 @@
-const config = require('../config.json')
-
+const config = require('../config.json');
 module.exports = {
     name: 'kick',
     description: 'A kick command for moderators',
     async execute(message, args, client, bot) {
-
-
-
-
         const member = message.mentions.members.first()
         if (!message.member.hasPermission('KICK_MEMBERS'))
             return message.channel.send({
@@ -43,7 +38,7 @@ module.exports = {
 
         if (member && member.user.id === message.guild.ownerID) return message.channel.send({
             embed: {
-                title: `${config.red} You cannot kick a server owner`,
+                title: `${config.red} You cannot kick the server owner`,
                 color: `${config.no}`
             }
         })
@@ -55,9 +50,7 @@ module.exports = {
             }
         })
 
-        if (message.member.hasPermission('ADMINISTRATOR') || message.member.hasPermission('KICK_MEMBERS'))
-
-        {
+        if (message.member.hasPermission('KICK_MEMBERS')) {
 
             if (member) {
                 message.channel.send({
@@ -70,22 +63,11 @@ module.exports = {
 
             } else {
                 return message.channel.send({
-                        embed: {
-                            title: `${config.red} Please mention a valid user you desire to kick from __${message.guild.name}__`,
-                            color: `${config.no}`
-                        }
-                    })
-
-                    .catch(error => {
-                        console.error(error)
-                        return message.channel.send({
-                            embed: {
-                                title: `${config.red} There was an error while executing this command: ${error}`,
-                                color: `${config.no}`
-                            }
-                        })
-
-                    })
+                    embed: {
+                        title: `${config.red} Please mention a valid user you desire to kick from __${message.guild.name}__`,
+                        color: `${config.no}`
+                    }
+                }) // no need to do error handing cuz its already done in index.js 
             }
 
         }

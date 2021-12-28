@@ -3,7 +3,7 @@ const config = require('../config.json')
 
 module.exports = {
     name: 'av',
-    aliases: 'avatar',
+    aliases: ['avatar'], // aliases should be an array 
     description: 'A avatar command for users',
     async execute(message, args, client, bot) {
 
@@ -30,7 +30,7 @@ module.exports = {
             embed.setFooter(`Requested by ${message.author.tag}`, target.displayAvatarURL)
             return message.channel.send(embed)
 
-        } 
+        }
 
     }
 }
