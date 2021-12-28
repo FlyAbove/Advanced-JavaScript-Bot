@@ -1,6 +1,5 @@
   {
-
-    "token": "",
+    "token": "token",
     "clientID": "",
     "prefix": "!",
     "logs": "",
@@ -12,5 +11,4 @@
     "no": "RED",
     "Activity": "",
     "Type": "WATCHING"
-   
-}
+  }
