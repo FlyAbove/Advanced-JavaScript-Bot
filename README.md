@@ -1,4 +1,4 @@
-https://media.discordapp.net/attachments/818553003610210365/925882094285099048/IMG_20211230_034339.jpg
+
 # 🎉 Discord JavaScript Bot 
 An advanced discord bot coded on Javascript with ❤ by FlyAbove
 
