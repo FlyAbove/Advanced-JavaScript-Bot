@@ -22,7 +22,7 @@ We always welcome new contributors to join the team
 
 If you are intrested you can checkout for more info [here](https://github.com/FlyAbove/Advanced-JavaScript-Bot/blob/main/CONTRIBUTING.md)
 
-# ⚠ Note:
+# ⚠ Note
 * This bot is a work in progress and is subject to change.
 * The bot source code is an open repository only for educataional purposes.
 * No help will be given for self hosting the bot.
