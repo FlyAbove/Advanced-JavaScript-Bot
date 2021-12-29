@@ -30,7 +30,7 @@ module.exports = {
             }
         })
 
-        if (message.mentions.users.has('919342338902482944')) {
+        if (message.mentions.users.has(`${config.clientID`)) {
             return message.channel.send({
                 embed: {
                     title: `${config.red} Sorry but i don't have the courage to ban myself`,
