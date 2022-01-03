@@ -29,4 +29,4 @@ If you are intrested you can checkout for more info [here](https://github.com/Fl
 * No help will be given for self hosting the bot.
 
 
-# The bot working is slowed because of my schools, exams and daily routine. I'll try my best to work on it everyday.
+## The bot working is slowed because of my schools, exams and daily routine. I'll try my best to work on it everyday.
