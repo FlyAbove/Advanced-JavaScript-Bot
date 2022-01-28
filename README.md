@@ -1,4 +1,5 @@
-![IMG_20220129_003744](https://user-images.githubusercontent.com/76478580/151610572-07396073-4e64-4c54-8dd3-ad85b8d3cfcc.jpg)
+![IMG_20220129_004047](https://user-images.githubusercontent.com/76478580/151610976-373495fa-e330-466f-a397-a49592f29c7f.jpg)
+
 
 
 # 🎉 discord.js bot 
