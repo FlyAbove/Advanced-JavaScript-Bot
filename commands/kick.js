@@ -67,7 +67,7 @@ module.exports = {
                         title: `${config.red} Please mention a valid user you desire to kick from __${message.guild.name}__`,
                         color: `${config.no}`
                     }
-                }) // no need to do error handing cuz its already done in index.js 
+                })   
             }
 
         }
