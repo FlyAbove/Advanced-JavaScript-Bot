@@ -5,7 +5,7 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| In Built| :white_check_mark: |
+| beta 0.0.1| :white_check_mark: |
 
 
 ## How To Report A Bug
