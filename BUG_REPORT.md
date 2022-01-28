@@ -10,5 +10,5 @@
 
 ## How To Report A Bug
 
-Dm me FlyΛbove#1505 on Discord or email on iqbalzahaak0@gmail.com
+Dm at FlyΛbove#1505 on Discord or email [at](contact@flyabove.ml)
 
