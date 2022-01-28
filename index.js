@@ -22,7 +22,6 @@ for (const file of commandFile) {
     client.commands.set(command.name, command)
     console.log(`[>] Command loaded ${command.name}`)
     client.aliases.set(command.aliases, command)
-    console.log(`[>] Loaded aliase ${command.alisases.map((alias) => alias + "\n")}`); // load the aliases (should work (hopefully))
 }
 
 client.on('ready', () => {
