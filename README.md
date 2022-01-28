@@ -1,4 +1,5 @@
-![14125](https://user-images.githubusercontent.com/76478580/151610341-9d22793d-5399-4784-a44b-916f1be56f27.png)
+![IMG_20220129_003744](https://user-images.githubusercontent.com/76478580/151610572-07396073-4e64-4c54-8dd3-ad85b8d3cfcc.jpg)
+
 
 # 🎉 discord.js bot 
 An advanced discord bot coded on Javascript with ❤ by FlyAbove
