@@ -1,4 +1,4 @@
-![141251235136](https://user-images.githubusercontent.com/76478580/151610341-9d22793d-5399-4784-a44b-916f1be56f27.png)
+![14125](https://user-images.githubusercontent.com/76478580/151610341-9d22793d-5399-4784-a44b-916f1be56f27.png)
 
 # 🎉 discord.js bot 
 An advanced discord bot coded on Javascript with ❤ by FlyAbove
