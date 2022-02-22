@@ -28,7 +28,7 @@ If you are intrested you can checkout for more info [here](https://github.com/Fl
 
 # ⚠ Note
 * This bot is a work in progress and is subject to change.
-* The bot source code is an open repository only for educataional purposes.
+* The bot source code is an open repository only for educational purposes.
 * No help will be given for self hosting the bot.
 
 
