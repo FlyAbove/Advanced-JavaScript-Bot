@@ -32,4 +32,4 @@ If you are intrested you can checkout for more info [here](https://github.com/Fl
 * No help will be given for self hosting the bot.
 
 
-##### The working of this bot is slowed because of my school, exams and daily routine. I'll try my best to work on it everyday.
+##### Working on bots is now a thing of past, working on this bot is closed :)
