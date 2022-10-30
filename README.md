@@ -32,4 +32,4 @@ If you are intrested you can checkout for more info [here](https://github.com/Fl
 * No help will be given for self hosting the bot.
 
 
-##### Working on bots is now a thing of past, working on this bot is closed :)
+##### Working on bots is now a thing of past 
